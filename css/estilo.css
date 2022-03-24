@@ -2,7 +2,28 @@ body{
  background-color:#F8F8FF ;   
 }
 
-img{ 
-width: 500px;
-height: ;
+.img_musica2p{ 
+width: 500%;
+height: 100px;
+}
+
+figure{
+    text-align: center;
+}
+.img_musica2p{
+    width: 30%;
+}
+
+.container{
+    width: 88%;
+    margin:auto;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-size: 2em;
+    
 }
