@@ -2,6 +2,16 @@ body{
  background-color:#2255e06e ;   
 }
 
+.menu {
+    background-color: gray;
+    padding: 2%;
+}
+ .itens_menu{
+     text-align: center;
+     font-size: 1.5em;
+ }
+ 
+
 .img_musica2p{ 
 width: 500%;
 height: 100px;
@@ -21,10 +31,14 @@ figure{
 
 h1{
     text-align: center;
+    font-size: 3em;
 }
 
 p{
     font-size: 2em;
+    text-align: justify;
+    text-indent: 35px;
+    line-height: 1.5;
     
 }
 .parag_letras > p{
@@ -43,3 +57,25 @@ p{
   padding-top: 9px;
 }
 
+ footer{
+     background-color:gray;
+     padding-top: 2%;
+     padding-bottom: 2%;
+
+ }
+
+ footer p{
+     color: black;
+     font-weight: bold;
+     font-size: 1em;
+     text-align: center;
+
+ }
+
+ .center{
+     text-align: center;
+ }
+
+ figure{
+     text-align:  center;
+ }
