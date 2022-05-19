@@ -1,17 +1,29 @@
-<<html lang="pt-br">
+<html lang="pt-br">
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
         <title>Meu Primeiro Site</title>
+        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/estilo.css">
     </head>
     <body>
         <header>
-            <h1>Tudo sobre Música</h1>
+            <div class="menu">
+                <div class="logo">
+                    <h1>Tudo sobre Música</h1>
+                </div>   
+                <div class= "itens_menu"> 
+                    <ul>
+                        <li> <a href="#sobre">Sobre</a></li>
+                        <li> <a href="#veja_mais">Saiba mais</a></li>
+                    </ul>
+                </div>
+           </div>
+
             <figure>
                 <img class="img_topo" src="img/musica2p.webp" alt="Partitura">
             </figure>          
         </header>
-        <div class="container">
+             <div class="container">
             <section id="sobre">
             <h1> O que é?</h1>
             <p>Música é a combinação de ritmo, harmonia e melodia, de maneira agradável ao ouvido. No sentido amplo é a organização temporal de sons e silêncios (pausas). No sentido restrito, é a arte de coordenar e transmitir efeitos sonoros, harmoniosos e esteticamente válidos, podendo ser transmitida através da voz ou de instrumentos musicais. A música é uma manifestação artística e cultural de um povo, em determinada época ou região. A música é um veículo usado para expressar os sentimentos. A música evoluiu através dos séculos, resultando numa grande variedade de gêneros musicais, entre eles, a música sacra ou religiosa, a erudita ou clássica, a popular e a tradicional ou folclórica. Cada um dos gêneros musicais possuem uma série de subgêneros e estilos.</p>
@@ -34,11 +46,11 @@
             <figure>
                 <img class="img_corpo" src="img/musica2.png" alt="notas musicais">
             </figure>
-            <p>
-             Para ver a letra da música<a href="letras.html"> Clique aqui</a>   
-            </p> 
-            <p>
-             Para saber sobre cursos musicais<a href="https://www.musicdot.com.br/"> Clique aqui</a> 
-            </p>
-        </div>    
+            <p class="center"> Para ver a letra da música<a href="letras.html"> Clique aqui</a></p>  
+            <p class="center">Para saber sobre cursos musicais<a href="https://www.musicdot.com.br/"> Clique aqui</a></p> 
+        </div> 
+    <footer>
+        <p>Desenvolvido por Maria Isadora</p>
+    </footer> 
+    </body>  
 </html>
