@@ -5,13 +5,13 @@ body{
 .menu {
     background-color: #FFDEAD;
     padding: 2%;
+}
 
-  section{ 
-    margin-top: 2%;
-    margin-bottom: 2%;
+  section { 
+    margin-top:2%;
+    margin-bottom:2%;
   }
 
-}
  .itens_menu{
      text-align: center;
      font-size: 1.5em;
@@ -19,7 +19,7 @@ body{
  
 
 .img_topo{ 
-width: 60%;
+width: 50%;
 margin-top: 2%;
 margin-bottom: 2%;
 }
@@ -44,6 +44,8 @@ h1{
     font-size: 3em;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
+    color:#4169E1;
+
 }
 
 p{
@@ -94,3 +96,12 @@ p{
  figure{
      text-align:  center;
  }
+
+ .img_erudita {
+     width: 25%;
+     float: right;
+     margin-left: 2%;
+     margin-top: 2.6%;
+     margin-bottom: 2%;
+ }
+
