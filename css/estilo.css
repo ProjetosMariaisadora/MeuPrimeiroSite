@@ -117,4 +117,16 @@ p{
      margin-bottom: 2%;
  }
 
+ table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 10px ridge #B0E0E6; 
+    padding-top: 1% ;   
+    padding-bottom: 1%;
+
+}
+
  
