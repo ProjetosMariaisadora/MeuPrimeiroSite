@@ -131,5 +131,15 @@ td, th {
     padding-bottom: 1%;
 
 }
+audio{
+    width: 60%;
+    
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+  background-color: #0c6183;  
+}
+
 
  

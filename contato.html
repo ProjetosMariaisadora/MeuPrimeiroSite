@@ -6,29 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilo.css">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">  
     <title>Contato</title>
 </head>
 <body>
     <header>
-        <div class="logo"> 
-            <h1>Entre em contato</h1>
-        </div>
-        <nav class="itens_menu">
-            <ul>                
-                <li><a href="index.html#sobre">Sobre</a></li>
-                <li><a href="index.html#veja_mais">Saiba Mais</a></li>
-                <li><a href="tabela.html">Estilos Musicais</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-        </nav> 
+        <div class="menu">
+            <div class="logo"> 
+                <h1>Tudo sobre música</h1>
+            </div>
+            <nav class="itens_menu">
+                <ul>                
+                    <li><a href="index.html#sobre">Sobre</a></li>
+                    <li><a href="index.html#veja_mais">Saiba Mais</a></li>
+                    <li><a href="tabela.html">Músicas</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>    
+        </div> 
     </header>
     <div class="container">
         <section>
+            <h1>Entre em Contato</h1>
+            <div class="formulario">
+                <form action="">
+                    <label for="nnome">Nome</label><br>
+                    <input type="text" placeholder="Escreva seu nome"><br>
+                    <label for="tel">Telefone</label><br>
+                    <input type="tel"  placeholder="99999-9999"><br><br>
+                    <label for="email">E-mail</label><br>
+                    <input type="email"  placeholder="email@servidor.com"><br>   
+                    
+                    <input type="radio" id="adm" name="adm" value="1">
+                    <label for="adm">Administrativo</label><br> 
+                     
+                    <input type="radio" id="rec" name="rec" value="2">
+                    <label for="rec">Reclamação</label><br>
+                    
+                    <input type="radio" id="sug" name="sug" value="3">
+                    <label for="sug">Sugestão</label><br>                  
+                    
+                    
 
-        </section>
-        <section>
+                    <input type="submit" value="Submit">
 
+                </form>
+            </div>
         </section>
     </div>
     <footer>
