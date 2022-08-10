@@ -123,6 +123,7 @@ p{
  table{
     border-collapse: collapse;
     width: 100%;
+    text-align: center;
 }
 
 td, th {
@@ -139,6 +140,16 @@ audio{
 audio::-webkit-media-controls-play-button,
 audio::-webkit-media-controls-panel {
   background-color: #0c6183;  
+}
+
+audio{
+    width: 60%;
+}
+td:first-child{
+    width: 40%;
+}
+td:first-child+td{
+    width: 60%;
 }
 
 
