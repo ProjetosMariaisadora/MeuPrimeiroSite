@@ -3,9 +3,12 @@ body{
  font-family: 'Cutive Mono', monospace;
 }
 
-.menu {
-    background-color: #FFDEAD;
-    padding:2%;
+.fixo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
 }
 
   section { 
@@ -16,6 +19,14 @@ body{
  .itens_menu{
      text-align: center;
      font-size: 1.5em;
+ }
+ .img_logo{
+     width: 25%;
+ }
+
+ .logo{
+    
+     text-align: center;
  }
 
  .itens_menu a:link, .itens_menu a:visited{
