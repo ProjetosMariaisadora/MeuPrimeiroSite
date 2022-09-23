@@ -1,0 +1,31 @@
+body{
+  background-color: #6A5ACD;  
+}
+header{
+    background-color: #DDA0DD;
+    padding: top;
+    width: 100%;
+}
+.container{
+    background-color:#836FFF;
+    width: 80%;
+    height: 800px;
+}
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color:darkorchid; 
+    width: 100%;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+ 
+
+h1{
+    text-align: center;
+    color: black;
+}
+p{
+    
+
+}
